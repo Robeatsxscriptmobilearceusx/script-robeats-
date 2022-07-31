@@ -1,4 +1,4 @@
-print("olá bem vindo a script mobile")
+
 
 local keys = shared.keys or {"A", "S", "D", "F"} -- MAKE THIS YOUR ROBEATS KEYBINDS FROM LEFT TO RIGHT, OR SET IN SHARED.KEYS
 
@@ -142,3 +142,11 @@ for index, instance in next, workspace:GetDescendants() do
         end)
     end
 end
+
+
+Page.TextField({
+    Text = "OBRIGADO POR USAR A SCRIPT",
+    Callback = function(value)
+        print(SCRIPT BY GUST_PERFIL)
+    end
+})
