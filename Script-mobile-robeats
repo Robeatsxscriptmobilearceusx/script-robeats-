@@ -142,11 +142,3 @@ for index, instance in next, workspace:GetDescendants() do
         end)
     end
 end
-
-
-Page.TextField({
-    Text = "OBRIGADO POR USAR A SCRIPT",
-    Callback = function(value)
-        print(SCRIPT BY GUST_PERFIL)
-    end
-})
